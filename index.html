@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name='viewport' content="width=device-width,initial-scale = 1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <title>Srihari</title>
+</head>
+
+<body>
+    <!-- <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="checkbox" id="toggler" /> -->
+    <input type="checkbox" id="day-night" />
+    <div class="style__switcher">
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa fa-sun-o"></i>
+            <i class="fa fa-moon-o"></i>
+        </label>
+    </div>
+    <!-- <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa fa-sun-o"></i>
+            <i class="fa fa-moon-o"></i>
+        </label>
+        <h3 class="style__switcher-title">Theme Colors</h3>
+        <div class="style__switcher-color">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+        </div>
+    </div> -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">SRIHARI</a>
+            <input type="checkbox" id="nav-toggler" class="nav-toggler-hidden" />
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#qualification" class="nav__link">Education</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#Skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#Project" class="nav__link">Project</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container container grid1">
+                <div class="home__content">
+                    <h3>Hello, It's Me</h3>
+                    <h1>Srihari</h1>
+                    <div class="home-sci">
+                        <a href="mailto:vsrihari0403@gmail.com"><i class="fa fa-envelope"
+                                style="font-size:24px"></i></a>
+                        <a href="https://www.linkedin.com/in/vandanapu-srihari-6062321a4" target="_blank"
+                            rel="noreferrer"><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+                        <a href="https://drive.google.com/file/d/1dN66m2kmc3xcc83hCp2mkeW10hRutkm6/view?usp=sharing"
+                            class="contact-btn" target="_blank" rel="noreferrer"><i class="fa fa-github"
+                                style="font-size:24px"></i>
+                        </a>
+                        <a href="tel:+919381108033" target="_blank" rel="noreferrer"><ion-icon name="call-outline"
+                                style="font-size: 20px;"></ion-icon></a>
+                    </div>
+                    <div class="home__btns">
+                        <a href="#contact" class="btn">Hire Me</a>
+                        <a href="https://drive.google.com/file/d/1dN66m2kmc3xcc83hCp2mkeW10hRutkm6/view?usp=sharing"
+                            class="btn btn--transparent" target="_blank" rel="noreferrer">DownloadCV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section__title title-center" data-title="About"></h2>
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="Srihari.jpg" alt="" class="about__img" />
+                    <img src="Srihari.jpg" alt="" class="about__img" />
+                    <img src="Srihari.jpg" alt="" class="about__img" />
+                    <img src="Srihari.jpg" alt="" class="about__img" width="80%" />
+                </div>
+                <div class="about__content">
+                    <p class="about_description">
+                        Hii I am Srihari
+                        Aspiring Data Scientist with proficiency in predictive modeling,SQL,python, Machine
+                        learning,Natural Language Processing,PowerBI,Tableau,Data Processing,Data Mining
+                        techniques.A punctual and hard working student, very interested in
+                        learning new stuff and research further to unknown information. Looking forword to adopt and
+                        learn from training in the new environment, also meeting new friends and to work together
+                        with them as a team
+                    </p>
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name:</h3>
+                            <span class="data__description">Srihari</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Age:</h3>
+                            <span class="data__description">22 Years</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">From:</h3>
+                            <span class="data__description">Hyderabad</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Email:</h3>
+                            <span class="data__description about__link">vsrihari0403@gmail.com</span>
+                        </li>
+                    </ul>
+                    <div class="about__bottom">
+                        <a href="https://drive.google.com/file/d/1dN66m2kmc3xcc83hCp2mkeW10hRutkm6/view?usp=sharing"
+                            class='btn' target="_blank" rel="noreferrer">DownloadCV</a>
+                    </div>
+                    <!-- <div class="about__social-links">
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title title-center" data-title="Education"></h2>
+            <div class="resume__container container">
+                <div class="resume__group">
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Saveetha School of Engineering</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <h3 class="resume__title">Bachelor Of Engineering</h3>
+                                    <span class="resume__date">2018 - 2022</span>
+                                </div>
+                                <p class="resume__description">
+                                    Saveetha University,Chennai<br />
+                                    CGPA :- 8.5
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Narayana Junior College</h3>
+                                <span class="resume__icon">-</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <h3 class="resume__title">Grade-XII</h3>
+                                    <span class="resume__date">2016 -2018</span>
+                                </div>
+                                <p class="resume__description">
+                                    Andhra Pradesh State Board,vijayawada<br />
+                                    Percentage :- 89
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Sri Chaitanaya Techno School</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <h3 class="resume__title">Grade- X</h3>
+                                    <span class="resume__date">2015 -2016</span>
+                                </div>
+                                <p class="resume__description">
+                                    AndhraPradesh State Board,Guntur
+                                    CGPA :- 7.8
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills section" id="Skills">
+            <h2 class="section__title title-center" data-title="Skills">
+            </h2>
+            <div class="skills__container container grid">
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Python</h3>
+                        <!-- <span class="skills__no">85 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">SQL</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Machine Learning</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Deep Learning</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Excel</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">HTML</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">CSS</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">React JS</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Power BI</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Tableau</h3>
+                        <!-- <span class="skills__no">80 %</span> -->
+                    </div>
+                    <!-- <p class="skills__description">Lorem ipsum dolor sit amet sed do elusmod tempor incident ut labors
+                        et dolore magna aliqua</p> -->
+                    <!-- <div class="skills__bar">
+                        <div class="skills__percentage">
+                            <span></span>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </section>
+        <section class="services section" id="Project">
+            <h2 class="section__title title-center" data-title="Project">
+            </h2>
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <a class="project-title" href="https://github.com/SRIHARI0405/Hotel-Review-Classification-"
+                        target="_blank" rel="noreferrer"><i class="fa fa-github" style="font-size:24px"></i></a>
+                    <h3 class="services__title"><a class="project-title"
+                            href="https://github.com/SRIHARI0405/Hotel-Review-Classification-" target="_blank"
+                            rel="noreferrer">Hotel Review Classification</a></h3>
+                    <p class="services__description"> The objective of the analysis is to predict that the customer
+                        has been satisfied or not and the rating based on review </p>
+                    <ul class="project-card-bottom">
+                        <li class="project-tech">Python</li>
+                        <li class="project-tech">Random Forest</li>
+                        <li class="project-tech">Logistic Regression</li>
+                        <li class="project-tech">Adaboost</li>
+                        <li class="project-tech">KNN</li>
+                    </ul>
+                </div>
+                <div class="services__item">
+                    <a class="project-title" href="https://github.com/SRIHARI0405/Credit-Card-Fraud-Detection"
+                        target="_blank" rel="noreferrer"><i class="fa fa-github" style="font-size:24px"></i></a>
+                    <h3 class="services__title"> <a class="project-title"
+                            href="https://github.com/SRIHARI0405/Credit-Card-Fraud-Detection" target="_blank"
+                            rel="noreferrer">Credit Card Fraud Detection</a></h3>
+                    <p class="services__description"> Credit Card Fraud Detection is used to identify fraud
+                        card and stop fraudulent transactions</p>
+                    <ul class="project-card-bottom">
+                        <li class="project-tech">Python</li>
+                        <li class="project-tech">Random Forest</li>
+                        <li class="project-tech">Decision Tree</li>
+                        <li class="project-tech">Artifical Neural Network</li>
+                    </ul>
+                </div>
+                <div class="services__item">
+                    <a class="project-title"
+                        href="https://github.com/SRIHARI0405/Laptop-Price-Prediction-ussing-Machine-Learning"
+                        target="_blank" rel="noreferrer"><i class="fa fa-github" style="font-size:24px"></i></a>
+                    <h3 class="services__title"><a class="project-title"
+                            href="https://github.com/SRIHARI0405/Laptop-Price-Prediction-ussing-Machine-Learning"
+                            target="_blank" rel="noreferrer">Laptop Price Prediction using Machine
+                            Learning</a></h3>
+                    <p class="services__description"> The objective of the analysis is to predict the laptop
+                        price
+                        using machine learning</p>
+                    <ul class="project-card-bottom">
+                        <li class="project-tech">Python</li>
+                        <li class="project-tech">Logistic Regression</li>
+                        <li class="project-tech">Decision Tree</li>
+                        <li class="project-tech">Random Forest</li>
+                        <li class="project-tech">KNN</li>
+                    </ul>
+                </div>
+                <div class="services__item">
+                    <a class="project-title"
+                        href="https://github.com/SRIHARI0405/Customer-churn-prediction-in-telecom-using-machine-learning"
+                        target="_blank" rel="noreferrer"><i class="fa fa-github" style="font-size:24px"></i></a>
+                    <h3 class="services__title"> <a class="project-title"
+                            href="https://github.com/SRIHARI0405/Customer-churn-prediction-in-telecom-using-machine-learning"
+                            target="_blank" rel="noreferrer">Customer churn prediction in telecom using
+                            machinelearning</a></h3>
+                    <p class="services__description"> Churn prediction is predicting which customers are at
+                        high risk of leaving your company or canceling a subscription to a service</p>
+                    <ul class="project-card-bottom">
+                        <li class="project-tech">Python</li>
+                        <li class="project-tech">Decision Tree</li>
+                        <li class="project-tech">KNN</li>
+                        <li class="project-tech">SVM</li>
+                        <li class="project-tech">Ada Boost</li>
+                        <li class="project-tech">XG Boost</li>
+                    </ul>
+                </div>
+                <!-- <div class="services__item">
+                    <i class="fa-solid fa-laptop services__icon"></i>
+                    <h3 class="services__title"> Web development</h3>
+                    <p class="services__description"> Servides with more than 3 years of experience.Providing qua;ity
+                        worl to clients and compaines.</p>
+                    <span class="services__no">05</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-area services__icon"></i>
+                    <h3 class="services__title">Research & Analysis</h3>
+                    <p class="services__description"> Servides with more than 3 years of experience.Providing qua;ity
+                        worl to clients and compaines.</p>
+                    <span class="services__no">06</span>
+                </div> -->
+
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <h2 class="section__title title-center" data-title="Contact Me">
+            </h2>
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <h1 class="contact-symbol"><ion-icon name="mail"></ion-icon></h1>
+                        <div>
+                            <h3 class="contact__title"> Email</h3>
+                            <h1><a href="mailto:vsrihari0403@gmail.com" class="contact-data">vsrihari0403@gmail.com</a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <h1 class="contact-symbol"><ion-icon name="call-outline"></ion-icon></h1>
+                        <div>
+                            <h3 class=" contact__title"> Call us</h3>
+                            <h1><a href="tel:+919381108033" class="contact-data">9381108033</a></h1>
+                        </div>
+                    </div>
+                </div>
+                <form action="https://formspree.io/f/meqbanoe" class="contact__form" method="POST">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" name="name" id="name" class="input__control" />
+                        </div>
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" name="email" id="email" class="input__control" />
+                        </div>
+                    </div>
+                    <div class="form__input">
+                        <input type="text" placeholder="Suject" name="subject" id="subject" class="input__control" />
+                    </div>
+                    <div class="form__input">
+                        <input type="text" placeholder="phone number" name="phonenumber" id="phonenumber"
+                            class="input__control" />
+                    </div>
+                    <div class="form__input">
+                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"
+                            class="input__control textarea"></textarea>
+                    </div>
+                    <button class="btn contact__btn" type="submit" id="btn">Send</button>
+                </form>
+            </div>
+        </section>
+        <!-- <section class="footer">
+            <div class="footer__container container">
+                <p class="footer__copyright">&copy; 2023 Alexander. All Rights Reserved</p>
+                <div class="footer__social-links">
+                    <a href="" class="footer__social-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src='index.js'></script>
+
+</body>
+
+</html>
